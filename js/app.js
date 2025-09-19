@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const user = localStorage.getItem('sml_user');
   if (!user && page !== 'login') {
     console.log('[app] no user, redirecting to login');
-    window.location.href = 'login_screen.html';
+    window.location.href = 'index.html';
     return;
   }
 
