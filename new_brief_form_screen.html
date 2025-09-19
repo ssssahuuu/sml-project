@@ -1,0 +1,107 @@
+<html><head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Inter%3Awght%40400%3B500%3B600%3B700&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style type="text/tailwindcss">
+      :root {
+        --primary-color: #1173d4;
+      }
+    </style>
+</head>
+<body data-page="new-brief" class="bg-gray-50">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden" style='font-family: Inter, "Noto Sans", sans-serif;'>
+<div class="layout-container flex h-full grow flex-col">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-gray-200 bg-white px-10 py-3">
+<div class="flex items-center gap-3 text-gray-800">
+<svg class="h-7 w-7 text-[var(--primary-color)]" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M39.475 21.6262C40.358 21.4363 40.6863 21.5589 40.7581 21.5934C40.7876 21.655 40.8547 21.857 40.8082 22.3336C40.7408 23.0255 40.4502 24.0046 39.8572 25.2301C38.6799 27.6631 36.5085 30.6631 33.5858 33.5858C30.6631 36.5085 27.6632 38.6799 25.2301 39.8572C24.0046 40.4502 23.0255 40.7407 22.3336 40.8082C21.8571 40.8547 21.6551 40.7875 21.5934 40.7581C21.5589 40.6863 21.4363 40.358 21.6262 39.475C21.8562 38.4054 22.4689 36.9657 23.5038 35.2817C24.7575 33.2417 26.5497 30.9744 28.7621 28.762C30.9744 26.5497 33.2417 24.7574 35.2817 23.5037C36.9657 22.4689 38.4054 21.8562 39.475 21.6262ZM4.41189 29.2403L18.7597 43.5881C19.8813 44.7097 21.4027 44.9179 22.7217 44.7893C24.0585 44.659 25.5148 44.1631 26.9723 43.4579C29.9052 42.0387 33.2618 39.5667 36.4142 36.4142C39.5667 33.2618 42.0387 29.9052 43.4579 26.9723C44.1631 25.5148 44.659 24.0585 44.7893 22.7217C44.9179 21.4027 44.7097 19.8813 43.5881 18.7597L29.2403 4.41187C27.8527 3.02428 25.8765 3.02573 24.2861 3.36776C22.6081 3.72863 20.7334 4.58419 18.8396 5.74801C16.4978 7.18716 13.9881 9.18353 11.5858 11.5858C9.18354 13.988 7.18717 16.4978 5.74802 18.8396C4.58421 20.7334 3.72865 22.6081 3.36778 24.2861C3.02574 25.8765 3.02429 27.8527 4.41189 29.2403Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+<h2 class="text-gray-800 text-xl font-semibold leading-tight">Briefly</h2>
+</div>
+<div class="flex items-center gap-6">
+<nav class="flex items-center gap-6 text-sm font-medium text-gray-600">
+<a class="hover:text-gray-900 transition-colors" href="#">Dashboard</a>
+<a class="text-[var(--primary-color)] font-semibold" href="#">Campaigns</a>
+<a class="hover:text-gray-900 transition-colors" href="#">Templates</a>
+<a class="hover:text-gray-900 transition-colors" href="#">Resources</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="flex h-10 w-10 items-center justify-center rounded-full bg-gray-100 text-gray-500 hover:bg-gray-200 hover:text-gray-600 transition-colors">
+<span class="material-symbols-outlined text-2xl"> help </span>
+</button>
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full h-10 w-10" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuARVSmxwc3Nm4Tl7pAB7-bq4Xi7DrwybQ-2mjy5GLmIULyJbsRdSGzPJjGOU0fBlYTfoSSUDobZwYSxNCQlg0kWiZzDwrGVvF_L4HXvdv-c3Uj9QNO9SFVaMQCrnaV6pvCjYuL3zPp-YvVcgLZeAV4PlyVPVx6H14qn0nSS5pYCiz5k1X1N0VId_3dfPmWaVQA3sgapNmVIVHM0KHq6WH99r8U2iNDk07e7kzRMIw8kaOZOm66OWySfz4To6K4dqnZ7NrecNPA_L64");'></div>
+</div>
+</div>
+</header>
+<main class="flex-1 px-10 py-8">
+<div class="mx-auto max-w-2xl">
+<div class="mb-8">
+<h1 class="text-3xl font-bold text-gray-900">New campaign brief</h1>
+<p class="mt-2 text-gray-600">Fill in the details below to create a new campaign brief.</p>
+</div>
+<form class="space-y-6">
+<div>
+<label class="block text-sm font-medium text-gray-700 pb-1.5" for="campaign-name">Campaign name</label>
+<input class="form-input block w-full rounded-md border-gray-300 bg-white shadow-sm focus:border-[var(--primary-color)] focus:ring-[var(--primary-color)] h-12 px-4 text-sm" id="campaign-name" placeholder="e.g. Summer Sale 2024" type="text"/>
+</div>
+<div>
+<label class="block text-sm font-medium text-gray-700 pb-1.5" for="campaign-objective">Campaign objective</label>
+<select class="form-select block w-full rounded-md border-gray-300 bg-white shadow-sm focus:border-[var(--primary-color)] focus:ring-[var(--primary-color)] h-12 px-4 text-sm" id="campaign-objective">
+<option disabled="" selected="">Select an objective</option>
+<option value="awareness">Brand Awareness</option>
+<option value="leads">Lead Generation</option>
+<option value="sales">Sales</option>
+</select>
+</div>
+<div>
+<label class="block text-sm font-medium text-gray-700 pb-1.5" for="campaign-type">Campaign type</label>
+<select class="form-select block w-full rounded-md border-gray-300 bg-white shadow-sm focus:border-[var(--primary-color)] focus:ring-[var(--primary-color)] h-12 px-4 text-sm" id="campaign-type">
+<option disabled="" selected="">Select a type</option>
+<option value="social">Social Media</option>
+<option value="email">Email Marketing</option>
+<option value="content">Content Marketing</option>
+</select>
+</div>
+<div class="grid grid-cols-2 gap-6">
+<div>
+<label class="block text-sm font-medium text-gray-700 pb-1.5" for="campaign-budget">Campaign budget ($)</label>
+<input class="form-input block w-full rounded-md border-gray-300 bg-white shadow-sm focus:border-[var(--primary-color)] focus:ring-[var(--primary-color)] h-12 px-4 text-sm" id="campaign-budget" placeholder="e.g. 5000" type="number"/>
+</div>
+<div>
+<label class="block text-sm font-medium text-gray-700 pb-1.5" for="campaign-duration">Campaign duration (days)</label>
+<input class="form-input block w-full rounded-md border-gray-300 bg-white shadow-sm focus:border-[var(--primary-color)] focus:ring-[var(--primary-color)] h-12 px-4 text-sm" id="campaign-duration" placeholder="e.g. 30" type="number"/>
+</div>
+</div>
+<div>
+<label class="block text-sm font-medium text-gray-700 pb-1.5" for="campaign-description">Campaign description</label>
+<textarea class="form-textarea block w-full rounded-md border-gray-300 bg-white shadow-sm focus:border-[var(--primary-color)] focus:ring-[var(--primary-color)] min-h-36 p-4 text-sm" id="campaign-description" placeholder="Provide a detailed description of the campaign..."></textarea>
+</div>
+<div class="rounded-md border border-gray-200 bg-white p-4">
+<label class="block text-sm font-medium text-gray-700" for="captcha">CAPTCHA</label>
+<div class="mt-2 flex items-center gap-4">
+<div class="flex-1 rounded-md bg-gray-100 p-3 text-center tracking-widest text-xl font-bold text-gray-700">
+<span class="select-none">
+                         X7gT2p
+                      </span>
+</div>
+<input class="form-input block w-full flex-1 rounded-md border-gray-300 bg-white shadow-sm focus:border-[var(--primary-color)] focus:ring-[var(--primary-color)] h-12 px-4 text-sm" id="captcha" placeholder="Enter the text" type="text"/>
+</div>
+</div>
+<div class="flex justify-end pt-4">
+<button class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-md h-10 px-6 bg-[var(--primary-color)] text-white text-sm font-semibold shadow-sm hover:bg-blue-700 transition-colors" type="submit">
+<span>Create campaign brief</span>
+</button>
+</div>
+</form>
+</div>
+</main>
+</div>
+</div>
+
+<script src="js/app.js"></script>
+
+</body></html>
